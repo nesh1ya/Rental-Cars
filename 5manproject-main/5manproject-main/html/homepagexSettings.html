@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SETTING SECTION SA HOMEPAGE</title>
+  <link rel="stylesheet" href="../css/homepagexSettings.css" />
+</head>
+
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Car Rental POS</h2>
+
+      <div class="user-info">
+        <img src="../assets/pfp.jpg" alt="pfp" class="pfp" />
+        <p>Admin Meng</p>
+      </div>
+
+      <nav>
+        <ul>
+          <li id="dashboard_button" class="navItem">Dashboard</li>
+          <li id="customers_button" class="navItem">Customers</li>
+          <li id="staff_button" class="navItem">Staff</li>
+          <li id="rentals_button" class="navItem">Daily Rentals</li>
+          <li id="reports_button" class="navItem">Reports</li>
+          <li id="users_button" class="navItem">Add Users</li>
+          <li id="settings_button" class="navItem active">Settings</li>
+        </ul>
+      </nav>
+
+      <div class="Logout">
+        <form action="">
+          <button type="submit" class="LogOutBtn">Log Out</button>
+        </form>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content" id="dashboardSection">
+      <!-- Header -->
+      <header class="dashboard-header">
+        <div class="welcome-section">
+          <h1>Welcome, Meng</h1>
+          <p>Here's what's happening today.</p>
+        </div>
+      </header>
+
+
+      <!-- Settings Section -->
+      <div class="settings-section">
+        <h2>Change Credentials</h2>
+
+        <div class="setting-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Meng" required />
+        </div>
+
+        <div class="setting-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="meng@example.com" required/>
+        </div>
+
+        <div class="setting-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" required/>
+        </div>
+
+        <div class="settings-buttons">
+          <button class="save-btn">Save Changes</button>
+          <button class="cancel-btn">Cancel</button>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
